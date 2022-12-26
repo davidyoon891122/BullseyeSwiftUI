@@ -31,11 +31,18 @@ struct ContentView: View {
                 Text("100")
                     .bold()
             }
+            .padding()
             Button(action: {
                 alertIsVisible = true
             }) {
-                Text("Hit me")
+                Text("Hit me".uppercased())
+                    .bold()
+                    .font(.title3)
             }
+            .padding(20.0)
+            .background(Color.blue)
+            .foregroundColor(Color.white)
+            .cornerRadius(21.0)
             .alert(isPresented: $alertIsVisible,
                    content: {
                 let roundedValue = Int(sliderValue.rounded())
