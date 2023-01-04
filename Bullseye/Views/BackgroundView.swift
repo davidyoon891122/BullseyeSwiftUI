@@ -38,8 +38,11 @@ struct NumberView: View {
     var title: String
     var text: String
     var body: some View {
-        Color.gray
-            .frame(width: 56.0, height: 56.0)
+        VStack {
+            LabelText(title: title)
+                .padding()
+            RoundRectTextView(text: text)
+        }
     }
 }
 
@@ -47,9 +50,9 @@ struct BottomView: View {
     @Binding var game: Game
     var body: some View {
         HStack {
-            NumberView(title: "Score", text: String(game.score))
+            NumberView(title: "SCORE", text: String(game.score))
             Spacer()
-            NumberView(title: "Round", text: String(game.round))
+            NumberView(title: "ROUND", text: String(game.round))
         }
     }
 }
