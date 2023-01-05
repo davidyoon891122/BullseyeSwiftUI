@@ -16,4 +16,10 @@ struct Game {
     func points(sliderValue: Int) -> Int {
         100 - abs(sliderValue - target)
     }
+
+    mutating func startNewRound(points: Int){
+        round += 1
+        score += points
+
+    }
 }
