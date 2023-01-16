@@ -14,7 +14,17 @@ struct Game {
     var round: Int = 1
 
     func points(sliderValue: Int) -> Int {
-        100 - abs(sliderValue - target)
+        let diff = abs(sliderValue - target)
+        let bonus: Int
+
+        if diff == 0 {
+            bonus = 100
+        } else if diff <= 2 {
+            bonus = 50
+        } else {
+            bonus = 0
+        }
+        return 100 - diff + bonus
     }
 
     mutating func startNewRound(points: Int){
