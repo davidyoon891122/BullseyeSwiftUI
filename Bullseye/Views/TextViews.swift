@@ -82,8 +82,6 @@ struct ButtonText: View {
             )
             .foregroundColor(.white)
             .cornerRadius(12.0)
-
-
     }
 }
 
