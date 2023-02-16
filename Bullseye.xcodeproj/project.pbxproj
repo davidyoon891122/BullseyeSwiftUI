@@ -12,6 +12,7 @@
 		493799242964524B00EB2EC3 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493799232964524B00EB2EC3 /* Shape.swift */; };
 		4937992629659A3F00EB2EC3 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4937992529659A3F00EB2EC3 /* RoundedView.swift */; };
 		4937992829659E2100EB2EC3 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4937992729659E2100EB2EC3 /* BackgroundView.swift */; };
+		494049F2299E62CD00BBF419 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494049F1299E62CD00BBF419 /* Constants.swift */; };
 		49CBA79C298A8A20000647D7 /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBA79B298A8A20000647D7 /* PointsView.swift */; };
 		49ECCF29296313B600626294 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ECCF28296313B500626294 /* TextViews.swift */; };
 		AD1CEB982919374200F21FD0 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CEB972919374200F21FD0 /* BullseyeApp.swift */; };
@@ -37,6 +38,7 @@
 		493799232964524B00EB2EC3 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		4937992529659A3F00EB2EC3 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		4937992729659E2100EB2EC3 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		494049F1299E62CD00BBF419 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		49CBA79B298A8A20000647D7 /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
 		49ECCF28296313B500626294 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 		AD1CEB942919374200F21FD0 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				49340E792958437D00D0659B /* Game.swift */,
+				494049F1299E62CD00BBF419 /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				49CBA79C298A8A20000647D7 /* PointsView.swift in Sources */,
 				4937992829659E2100EB2EC3 /* BackgroundView.swift in Sources */,
 				49ECCF29296313B600626294 /* TextViews.swift in Sources */,
+				494049F2299E62CD00BBF419 /* Constants.swift in Sources */,
 				49340E7A2958437D00D0659B /* Game.swift in Sources */,
 				AD1CEB982919374200F21FD0 /* BullseyeApp.swift in Sources */,
 			);
